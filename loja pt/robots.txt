@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://exemplo.com/pt/loja-infantil/sitemap.xml
