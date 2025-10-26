@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://exemplo.com/en/kids-store/sitemap.xml

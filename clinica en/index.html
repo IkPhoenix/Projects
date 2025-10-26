@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BemViver Clinic • Care well to live better</title>
+  <meta name="description" content="Human-centered, modern care in Primary Care, Pediatrics, Dermatology and Gynecology.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="alternate" hreflang="pt-BR" href="https://exemplo.com/pt/clinica/">
+  <link rel="alternate" hreflang="en" href="https://exemplo.com/en/clinic/">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalClinic", "name": "BemViver Clinic", "logo": "assets/img/logo.svg", "address": {"@type": "PostalAddress", "streetAddress": "Av. Saúde, 100", "addressLocality": "São Paulo", "addressRegion": "SP", "postalCode": "01000-000", "addressCountry": "BR"}, "telephone": "+55 11 90000-0000", "priceRange": "$$"}</script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span class="brand-icon" aria-hidden="true"></span><span class="brand-name">Clínica BemViver</span></div>
+    <nav class="menu">
+      <a href="#especialidades">Specialties</a><a href="#equipe">Team</a><a href="#valores">Pricing</a><a href="#contato">Contact</a>
+    </nav>
+    <div class="controls"><button id="themeToggle" class="button ghost" aria-label="Theme"><span id="themeIcon">☀️</span> Theme</button></div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <span class="badge">Book online • Human-centered care</span>
+      <h1>Care well to live better</h1>
+      <p>Human-centered, modern care in Primary Care, Pediatrics, Dermatology and Gynecology.</p>
+      <a class="button" href="#contato">Book appointment</a>
+      <a class="button ghost" href="#especialidades" style="margin-left:8px">See specialties</a>
+    </div>
+    <div class="card" style="padding:0;overflow:hidden">
+      <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=1200&auto=format&fit=crop" alt="Clinic">
+    </div>
+  </section>
+
+  <section id="especialidades" class="section">
+    <h2>Specialties</h2>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="card"><h3>Primary Care</h3><p>First contact, check‑ups and continuous follow‑up.</p></div>
+      <div class="card"><h3>Pediatrics</h3><p>Comprehensive care for children and teens.</p></div>
+      <div class="card"><h3>Dermatology</h3><p>Skin health, allergies and minimally invasive procedures.</p></div>
+      <div class="card"><h3>Gynecology</h3><p>Women’s health, prenatal and family planning.</p></div>
+      <div class="card"><h3>Nutrition</h3><p>Personalized plans and follow‑up.</p></div>
+      <div class="card"><h3>Psychology</h3><p>Qualified listening and emotional development.</p></div>
+    </div>
+  </section>
+
+  <section id="equipe" class="section">
+    <h2>Our team</h2>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="card doc"><img src="https://images.unsplash.com/photo-1550831107-1553da8c8464?q=80&w=256&auto=format&fit=crop" alt="Doctor"><div><strong>Dr. Bruno Pereira</strong><div class="small">Primary Care • CRM 12345</div></div></div>
+      <div class="card doc"><img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=256&auto=format&fit=crop" alt="Doctor"><div><strong>Dra. Ana Martins</strong><div class="small">Dermatology • CRM 67890</div></div></div>
+      <div class="card doc"><img src="https://images.unsplash.com/photo-1523246198663-46f7f774b6c2?q=80&w=256&auto=format&fit=crop" alt="Doctor"><div><strong>Dr. Carla Azevedo</strong><div class="small">Pediatrics • CRM 11223</div></div></div>
+    </div>
+  </section>
+
+  <section id="valores" class="section">
+    <h2>Pricing (private)</h2>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="card"><h3>Primary Care visit</h3><div class="price">$34.60</div><div class="small">Follow‑up within 30 days included</div></div>
+      <div class="card"><h3>Dermatology visit</h3><div class="price">$46.15</div><div class="small">Includes dermatoscopy</div></div>
+      <div class="card"><h3>Pediatrics visit</h3><div class="price">$42.30</div><div class="small">Growth tracking</div></div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Book your appointment</h2>
+    <div class="grid-2" style="margin-top:12px">
+      <div class="card">
+        <form class="form" novalidate>
+          <label>Name <input name="name" placeholder="Your name"></label>
+          <label>E‑mail <input name="email" placeholder="you@example.com"></label>
+          <label>Specialty
+            <select name="specialty">
+              <option value="">Select</option>
+              <option>Primary Care</option><option>Pediatrics</option><option>Dermatology</option><option>Gynecology</option><option>Nutrition</option><option>Psychology</option>
+            </select>
+          </label>
+          <label>Preferred date <input type="date" name="date"></label>
+          <label>Message <textarea name="message" rows="4" placeholder="Brief description"></textarea></label>
+          <button class="button" type="submit">Send</button>
+          <div class="small"></div>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Address</h3>
+        <p>Av. Saúde, 100 — Centro, São Paulo/SP</p>
+        <p><strong>Phone/WhatsApp:</strong> +55 11 90000-0000</p>
+        <p><strong>Hours:</strong> Mon–Fri 8am–6pm • Sat 8am–12pm</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">© 2025 BemViver Clinic • All rights reserved</div></footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
